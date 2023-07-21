@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bef545a7978031103e74fed11153afbe" label="x_816691_inciden_0_m2m_Incidents_Universal Requests" max_length="40" name="x_816691_inciden_0_m2m_incident_universal_re" type="collection">
+        <element attributes="encode_utf8=false" label="Incidents" max_length="32" name="incident" reference="incident" type="reference"/>
+        <element attributes="encode_utf8=false" label="Universal Requests" max_length="32" name="universal_request" reference="universal_request" type="reference"/>
+        <index name="index">
+            <element name="incident"/>
+        </index>
+        <index name="index2">
+            <element name="universal_request"/>
+        </index>
+    </element>
+</database>
