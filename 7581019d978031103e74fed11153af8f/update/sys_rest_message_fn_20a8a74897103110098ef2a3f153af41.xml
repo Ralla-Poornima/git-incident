@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+"model": "${model}",&#13;
+"prompt": "${prompt}",&#13;
+"max_tokens": ${max_tokens},&#13;
+"temperature": ${temperature}&#13;
+}</content>
+        <function_name>POST</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>ChatGPT [ POST ]</qualified_name>
+        <rest_endpoint>https://api.openai.com/v1/completions</rest_endpoint>
+        <rest_message display_value="ChatGPT">2b67e30897103110098ef2a3f153afce</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-23 11:34:33</sys_created_on>
+        <sys_id>20a8a74897103110098ef2a3f153af41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST</sys_name>
+        <sys_package display_value="Incident Management" source="x_816691_inciden_0">7581019d978031103e74fed11153af8f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management">7581019d978031103e74fed11153af8f</sys_scope>
+        <sys_update_name>sys_rest_message_fn_20a8a74897103110098ef2a3f153af41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-23 11:34:33</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

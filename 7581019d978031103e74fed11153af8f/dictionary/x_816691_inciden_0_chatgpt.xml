@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b174e34497103110098ef2a3f153af3b" label="ChatGPT" max_length="40" name="x_816691_inciden_0_chatgpt" type="collection">
+        <element label="Answer" max_length="4000" name="answer" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Question" max_length="4000" name="question" type="string"/>
+        <element label="Request" max_length="4000" name="request" type="string"/>
+        <element label="Response" max_length="4000" name="response" type="string"/>
+        <element label="Status code" max_length="4000" name="status_code" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_816691_inciden_0_chatgpt</description>
+        <name>x_816691_inciden_0_chatgpt</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-23 11:17:26</sys_created_on>
+        <sys_id>f816eb8497103110098ef2a3f153af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_816691_inciden_0_chatgpt</sys_name>
+        <sys_package display_value="Incident Management" source="x_816691_inciden_0">7581019d978031103e74fed11153af8f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management">7581019d978031103e74fed11153af8f</sys_scope>
+        <sys_update_name>sys_security_acl_f816eb8497103110098ef2a3f153af7e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-23 11:17:26</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
